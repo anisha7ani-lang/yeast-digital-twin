@@ -205,3 +205,4 @@ with st.sidebar:
     st.write("Illustrative model parameters")
     st.write(f"Maximum growth rate: {PARAMS['mu_max']} 1/h")
     st.write(f"Feed sugar concentration: {PARAMS['feed_sugar']} g/L")
+    st.write(f"Initial volume: {INITIAL_STATE[3]} L")
