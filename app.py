@@ -204,4 +204,4 @@ with st.sidebar:
     st.markdown("---")
     st.write("Illustrative model parameters")
     st.write(f"Maximum growth rate: {PARAMS['mu_max']} 1/h")
-    st.write(f"Feed sugar concentration: {
+    st.write(f"Feed sugar concentration: {PARAMS['feed_sugar']} g/L")
